@@ -4,12 +4,12 @@ Operations with quaternions. C++ project.
 Yep... i^2 = j^2 = k^2 = ijk = -1.
 
 <pre>
-E1 = a + bi + cj + dk
-E2 = e + fi + gj + hk
+Q1 = a + bi + cj + dk
+Q2 = e + fi + gj + hk
 </pre>
 
 <pre>
-E1*E2 = ae  + afi   + agj   + ahk
+Q1*Q2 = ae  + afi   + agj   + ahk
         bei + bfi^2 + bgij  + bhik
         cej + cfji  + cgj^2 + chjk
         dek + dfki  + dgkj  + dhk^2
@@ -22,7 +22,7 @@ E1*E2 = ae  + afi   + agj   + ahk
 | k           | j                | -i           | -1            |
 
 <pre>
-E1*E2 = (ae - bf - cg - dh,
+Q1*Q2 = (ae - bf - cg - dh,
          af + be + ch - dg,
          ag - bh + ce + df,
          ah + bg - cf + de)
