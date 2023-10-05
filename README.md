@@ -27,3 +27,6 @@ Q1*Q2 = (ae - bf - cg - dh,
          ag - bh + ce + df,
          ah + bg - cf + de)
 </pre>
+
+Reference:
+1. https://arxiv.org/pdf/2009.00425.pdf
